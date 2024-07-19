@@ -5,7 +5,7 @@ class Number
 	   int values = 5;
 	   System.out.println("checking for the number is even or odd");
 	   System.out.println("Values:"+ values);
-	   if(values<=5 && values>=5)
+	   if(values%2==0)
 	   {
 		System.out.println("print odd");
 	   } 
